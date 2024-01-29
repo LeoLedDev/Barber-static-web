@@ -1,0 +1,76 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #c5a61d;
+    text-decoration: underline;
+}
+
+nav {
+    position: absolute;
+    top: 40%;
+    right: 25px;
+
+
+}
+
+.logo {
+    width: 10vh;
+    height: 10vh;
+    margin-left: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+
+
+header {
+    padding: 20px 0;
+    background: url(/Img/bg.jpg);
+}
+
+.caja {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    background: url(/Img/bg.jpg);
+    padding: 40px;
+
+
+
+
+}
+
+.footerPage {
+    position: relative;
+    margin: auto;
+
+}
+
+.copy {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 20px;
+}
